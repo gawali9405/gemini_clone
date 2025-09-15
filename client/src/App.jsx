@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Middle from "./components/Middle";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Sidebar />
+      <Middle />
+    </>
+  );
+};
 
-export default App
+export default App;
